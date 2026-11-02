@@ -1,0 +1,7 @@
+Flask==3.0.3
+gunicorn==22.0.0
+PyYAML==6.0.2
+requests==2.32.3
+google-auth==2.35.0
+google-cloud-storage==2.18.2
+vl-convert-python==1.7.0

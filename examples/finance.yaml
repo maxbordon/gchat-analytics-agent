@@ -1,0 +1,14 @@
+# Example profile: a bot focused on P&L / EBIT questions.
+bot_name: Finance Assistant
+
+welcome_message: >
+  Hi! Ask me about revenue, costs and EBIT. For example:
+  "Compare EBIT margin by region for the last 3 months".
+
+empty_question_message: I didn't get a question. Ask me something about the P&L!
+
+conversation_prefix: finance
+
+label_prefixes:
+  - "pnl_monthly "
+  - "stores "

@@ -1,0 +1,16 @@
+# Example profile: a bot focused on inventory shrinkage (unexplained loss).
+bot_name: Shrinkage Assistant
+
+welcome_message: >
+  Hi! Ask me about inventory shrinkage. For example:
+  "Which 5 stores had the worst shrinkage rate last month?" or
+  "How is the Produce department trending?"
+
+empty_question_message: I didn't get a question. Ask me something about shrinkage!
+
+conversation_prefix: shrink
+
+label_prefixes:
+  - "inventory_counts "
+  - "products "
+  - "stores "

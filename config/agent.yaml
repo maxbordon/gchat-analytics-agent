@@ -1,0 +1,23 @@
+# Default agent profile: retail analytics over the synthetic dataset.
+# Point AGENT_PROFILE at another file (see examples/) to reuse the same bot
+# for a different domain without touching code.
+
+bot_name: Retail Analytics Assistant
+
+welcome_message: >
+  Hi! I answer questions about store performance in plain language.
+  Try: "Which 5 stores have the highest shrinkage rate?" or
+  "What's the EBIT margin by region last quarter?"
+
+empty_question_message: I didn't get a question. Ask me something about store performance!
+
+# Prefix for conversation ids created in the Data Agent.
+conversation_prefix: retail
+
+# Some BI layers prefix display names with the view name ("pnl_monthly Revenue").
+# Listed prefixes are stripped from table headers.
+label_prefixes:
+  - "pnl_monthly "
+  - "inventory_counts "
+  - "stores "
+  - "products "

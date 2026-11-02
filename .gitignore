@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Secrets and local config - NEVER commit these
+.env
+*.json.key
+*-key.json
+credentials*.json
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+terraform.tfvars
+
+# Local outputs
+out/
+data/full/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
