@@ -69,11 +69,11 @@ resource "google_project_iam_member" "developers" {
 
 # --- BigQuery dataset (tables loaded by scripts/load_bigquery.sh) --------------------
 resource "google_bigquery_dataset" "retail" {
-  dataset_id    = var.bigquery_dataset
-  location      = "US"
-  description   = "Synthetic retail data for the analytics agent demo."
-  labels        = local.labels
-  depends_on    = [google_project_service.required]
+  dataset_id  = var.bigquery_dataset
+  location    = "US"
+  description = "Synthetic retail data for the analytics agent demo."
+  labels      = local.labels
+  depends_on  = [google_project_service.required]
 }
 
 # --- Container registry ---------------------------------------------------------
